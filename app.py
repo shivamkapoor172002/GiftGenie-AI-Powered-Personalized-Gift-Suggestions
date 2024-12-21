@@ -30,7 +30,7 @@ os.makedirs(DOWNLOAD_FOLDER, exist_ok=True)
 os.makedirs(LOGS_FOLDER, exist_ok=True)
 
 # Initialize the Mistral client securely
-API_KEY = "fb7cL6YvR3KAgcY9I1kjp4qx4m78iK1M"
+API_KEY = "add-ur-api-here"
 MODEL = "mistral-large-latest"
 client = Mistral(api_key=API_KEY)
 
